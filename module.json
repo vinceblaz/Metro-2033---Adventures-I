@@ -1,0 +1,34 @@
+{
+  "id": "metro-2033-aventures-1",
+  "title": "Métro 2033 — Aventures I",
+  "description": "Module d'aventure pour le système Métro 2033 — Year Zero Engine : le didacticiel et les scénarios 1 à 3 du livre de base en journaux Foundry (scènes, encarts à lire, notes MJ, PNJ) et les cartes de Petchatniki (scènes avec murs, portes et lumières). Œuvre de fan non officielle, non approuvée par l'éditeur ni par les titulaires des droits de Métro 2033.",
+  "version": "0.3.0",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "Vincent Blazy",
+      "url": "https://github.com/vinceblaz"
+    }
+  ],
+  "esmodules": [
+    "src/module.mjs"
+  ],
+  "styles": [
+    "styles/metro-adventure.css"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "metro-2033-yze",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.9.7"
+        }
+      }
+    ]
+  }
+}

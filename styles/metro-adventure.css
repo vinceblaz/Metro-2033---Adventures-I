@@ -1,0 +1,94 @@
+/* =========================================================
+   MÉTRO 2033 — AVENTURES I : ENCADRÉS DES JOURNAUX
+   S'appuie sur la charte des journaux du système (variables
+   --metro-journal-* définies sur .journal-sheet par le système).
+   Livré « best effort » : non vérifié sur une instance Foundry.
+   ========================================================= */
+
+.journal-sheet {
+    --metro-adv-box-bg: rgba(60, 40, 24, 0.07);
+    --metro-adv-dark-bg: #2b2118;
+    --metro-adv-dark-ink: #dcd8cc;
+}
+
+/* ---------- Encart à lire aux joueurs ---------- */
+.journal-sheet .metro-read-aloud {
+    margin: 1rem 0;
+    padding: 0.7rem 1rem;
+    background: var(--metro-adv-dark-bg);
+    border-left: 5px solid var(--metro-journal-red, #7e1d1d);
+    color: var(--metro-adv-dark-ink);
+    font-family: var(--metro-journal-body-font, "Courier Prime", "Courier New", monospace);
+}
+
+.journal-sheet .journal-entry-page .journal-page-content .metro-read-aloud :is(p, li) {
+    margin: 0.4rem 0;
+    color: var(--metro-adv-dark-ink);
+    font-style: italic;
+}
+
+/* ---------- Notes MJ ---------- */
+.journal-sheet .metro-gm-note {
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+    background: var(--metro-adv-box-bg);
+    border: 1px solid var(--metro-journal-red-line, #9a2a2a);
+    border-left-width: 5px;
+}
+
+/* ---------- Rappels de règles ---------- */
+.journal-sheet .metro-rule-box {
+    margin: 1rem 0;
+    padding: 0.6rem 1rem;
+    background: var(--metro-adv-box-bg);
+    border-top: 3px solid var(--metro-journal-black, #1c1a17);
+    border-bottom: 1px solid var(--metro-journal-black, #1c1a17);
+}
+
+/* ---------- Feuille de route ---------- */
+.journal-sheet .metro-route-sheet {
+    margin: 0.5rem 0 1rem;
+    padding: 0.6rem 1rem;
+    background: var(--metro-adv-box-bg);
+    border: 2px solid var(--metro-journal-black, #1c1a17);
+}
+
+/* ---------- Épigraphe ---------- */
+.journal-sheet .metro-epigraph {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-left: 3px solid var(--metro-journal-red, #7e1d1d);
+    color: var(--metro-journal-red, #7e1d1d);
+    font-style: italic;
+}
+
+.journal-sheet .journal-entry-page .journal-page-content .metro-epigraph p {
+    color: inherit;
+}
+
+/* ---------- Titre d'encadré ---------- */
+.journal-sheet .metro-box-title {
+    margin: 0 0 0.4rem;
+    font-family: var(--metro-journal-title-font, "Special Elite", "Courier New", monospace);
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.04em;
+    color: var(--metro-journal-red, #7e1d1d);
+    border: 0;
+}
+
+.journal-sheet .journal-entry-page .journal-page-content .metro-read-aloud .metro-box-title {
+    color: var(--metro-adv-dark-ink);
+}
+
+/* ---------- Compétences et attributs ---------- */
+.journal-sheet .metro-skill {
+    font-family: var(--metro-journal-title-font, "Special Elite", "Courier New", monospace);
+    font-size: 0.9em;
+    letter-spacing: 0.03em;
+    color: var(--metro-journal-red, #7e1d1d);
+}
+
+.journal-sheet .journal-entry-page .journal-page-content .metro-read-aloud .metro-skill {
+    color: var(--metro-adv-dark-ink);
+}
