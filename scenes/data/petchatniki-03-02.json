@@ -1,0 +1,68 @@
+{
+  "name": "[Metro2033]Station-Petchatniki-03-_02",
+  "width": 7500,
+  "height": 7500,
+  "grid": 150,
+  "shiftX": 0,
+  "shiftY": 0,
+  "gridDistance": 5.0,
+  "gridUnits": "ft",
+  "padding": 0.0,
+  "gridColor": "#000000",
+  "gridAlpha": 0.2,
+  "globalLight": true,
+  "darkness": 0.0,
+  "lights": [
+    {
+      "x": 4229,
+      "y": 6651,
+      "dim": 100.0,
+      "bright": 50.0,
+      "tintColor": "#FFFFFF",
+      "tintAlpha": 0.0
+    },
+    {
+      "x": 4295,
+      "y": 6491,
+      "dim": 100.0,
+      "bright": 50.0,
+      "tintColor": "#FFFFFF",
+      "tintAlpha": 0.0
+    },
+    {
+      "x": 1995,
+      "y": 4996,
+      "dim": 100.0,
+      "bright": 50.0,
+      "tintColor": "#0FAA11",
+      "tintAlpha": 0.0
+    },
+    {
+      "x": 2082,
+      "y": 5024,
+      "dim": 100.0,
+      "bright": 50.0,
+      "tintColor": "#AA1B19",
+      "tintAlpha": 0.0
+    },
+    {
+      "x": 1141,
+      "y": 6941,
+      "dim": 100.0,
+      "bright": 50.0,
+      "tintColor": "#0FAA11",
+      "tintAlpha": 0.0
+    },
+    {
+      "x": 1039,
+      "y": 6929,
+      "dim": 100.0,
+      "bright": 50.0,
+      "tintColor": "#AA1B19",
+      "tintAlpha": 0.0
+    }
+  ],
+  "walls": [],
+  "img": null,
+  "foreground": null
+}

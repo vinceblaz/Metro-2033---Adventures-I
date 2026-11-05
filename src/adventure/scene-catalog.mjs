@@ -37,5 +37,12 @@ export const ADVENTURE_SCENES = Object.freeze([
     scene("petchatniki-02-01", "Petchatniki — Plan 2 · carte 1"),
     scene("petchatniki-02-02", "Petchatniki — Plan 2 · carte 2"),
     scene("petchatniki-02-03", "Petchatniki — Plan 2 · carte 3"),
-    scene("petchatniki-02-04", "Petchatniki — Plan 2 · carte 4")
+    scene("petchatniki-02-04", "Petchatniki — Plan 2 · carte 4"),
+    scene("petchatniki-03-00", "Petchatniki — Plan 3 · carte 0"),
+    scene("petchatniki-03-01", "Petchatniki — Plan 3 · carte 1"),
+    scene("petchatniki-03-02", "Petchatniki — Plan 3 · carte 2"),
+    scene("petchatniki-04-00", "Petchatniki — Plan 4 · carte 0"),
+    scene("petchatniki-04-01", "Petchatniki — Plan 4 · carte 1"),
+    scene("petchatniki-04-02", "Petchatniki — Plan 4 · carte 2"),
+    scene("petchatniki-04-03", "Petchatniki — Plan 4 · carte 3")
 ]);
